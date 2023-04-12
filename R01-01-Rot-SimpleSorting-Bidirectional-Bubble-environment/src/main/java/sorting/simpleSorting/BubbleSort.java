@@ -29,10 +29,21 @@ public class BubbleSort<T extends Comparable<T>> extends AbstractSorting<T> {
 	}
 	private boolean validation(T[] array, int leftIndex, int rightIndex){
 		boolean result = true;
-		if(rightIndex > array.length) result = false;
-		if(leftIndex > rightIndex || leftIndex < 0 || rightIndex < 0) result = false;
-		if(array.equals(null)) result = false;
-
+		if(array == null) 
+			result = false;
+		
+		if(array.length == 0) 
+			result = false;
+		
+		if(leftIndex > rightIndex) 
+			result = false;
+		
+		if(leftIndex < 0 || rightIndex < 0) 
+			result = false;
+		
+		if(rightIndex >= array.length) 
+			result = false;
+		
 		return result;
 	}
 

@@ -7,3 +7,13 @@
   <level>FINE</level>
   <message>File 120210483-RAYANE BEZERRA DA SILVA.zip was received. It was sent by RAYANE BEZERRA DA SILVA from IP 150.165.42.159 at 05-04-2023 09*45*17</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-11T21:56:45.420-0300</date>
+  <logger>RAYANE BEZERRA DA SILVA</logger>
+  <level>FINE</level>
+  <message>File 120210483-RAYANE BEZERRA DA SILVA.zip was received. It was sent by RAYANE BEZERRA DA SILVA from IP 10.220.0.7 at 11-04-2023 21*56*45</message>
+</record>
