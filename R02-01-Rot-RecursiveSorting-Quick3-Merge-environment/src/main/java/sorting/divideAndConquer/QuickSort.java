@@ -1,6 +1,7 @@
 package sorting.divideAndConquer;
 
 import sorting.AbstractSorting;
+import util.Util;
 
 /**
  * Quicksort is based on the divide-and-conquer paradigm. The algorithm chooses
@@ -14,7 +15,46 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if(validation(array, leftIndex, rightIndex)) {
+			if(leftIndex < rightIndex) {
+				int indexPivot = this.partition(array, leftIndex, rightIndex);
+				this.sort(array, leftIndex, indexPivot - 1);
+				this.sort(array, indexPivot + 1, rightIndex);
+				
+			}
+		}
+	}
+
+	private int partition(T[] array, int leftIndex, int rightIndex) {
+		int range = rightIndex - leftIndex + 1;
+		int rand_pivot_index = (int)(Math.random() * range) + leftIndex;
+		
+		T pivot = array[leftIndex];
+		int i = leftIndex;
+		
+		for(int j = leftIndex + 1; j <= rightIndex; j++) {
+			if(array[j].compareTo(pivot) <= 0) {
+				i++;
+				Util.swap(array, j, i);
+			}
+		}
+		Util.swap(array, leftIndex, i);
+		
+		return i;
+	}
+
+	private boolean validation(T[] array, int leftIndex, int rightIndex) {
+		boolean result = true;
+		if (array == null)
+			result = false;
+		if (array.length == 0)
+			result = false;
+		if (leftIndex < 0 || rightIndex < 0)
+			result = false;
+		if (rightIndex >= array.length)
+			result = false;
+		if (leftIndex > rightIndex)
+			result = false;
+		return result;
 	}
 }
