@@ -10,22 +10,22 @@ import sorting.AbstractSorting;
  */
 public class MergeSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
-	
 	@Override
-	public void sort (T[] array, int leftIndex, int rightIndex) {
-		    if(validation(array, leftIndex, rightIndex)) {
-		    	if (leftIndex < rightIndex) {
-					int middle = (rightIndex + leftIndex) / 2;
-					this.sort(array, leftIndex, middle);
-					this.sort(array, middle + 1, rightIndex);
-					this.merge(array, leftIndex, middle, rightIndex);
-				}
-		    }
-			
+	public void sort(T[] array, int leftIndex, int rightIndex) {
+		if (validation(array, leftIndex, rightIndex)) {
+			if (leftIndex < rightIndex) {
+				int middle = (rightIndex + leftIndex) / 2;
+				this.sort(array, leftIndex, middle);
+				this.sort(array, middle + 1, rightIndex);
+				this.merge(array, leftIndex, middle, rightIndex);
+			}
 		}
-	private void merge (T[] array, int leftIndex, int middle, int rightIndex) {
+
+	}
+
+	private void merge(T[] array, int leftIndex, int middle, int rightIndex) {
 		T[] helper = array.clone();
-		
+
 		int i = leftIndex;
 		int j = middle + 1;
 		int k = leftIndex;
@@ -61,6 +61,5 @@ public class MergeSort<T extends Comparable<T>> extends AbstractSorting<T> {
 			result = false;
 		return result;
 	}
-	}
-
+}
 

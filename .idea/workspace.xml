@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="025080ed-874d-49cb-b87d-275893fe121c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/120210483-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/120210483-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/src/main/java/sorting/divideAndConquer/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/src/main/java/sorting/divideAndConquer/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/src/main/java/sorting/divideAndConquer/hybridMergesort/HybridMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/src/main/java/sorting/divideAndConquer/hybridMergesort/HybridMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/src/main/java/sorting/divideAndConquer/quicksort3/QuickSortMedianOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/src/main/java/sorting/divideAndConquer/quicksort3/QuickSortMedianOfThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/target/classes/sorting/divideAndConquer/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/target/classes/sorting/divideAndConquer/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/target/classes/sorting/divideAndConquer/hybridMergesort/HybridMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/target/classes/sorting/divideAndConquer/hybridMergesort/HybridMergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/target/classes/sorting/divideAndConquer/quicksort3/QuickSortMedianOfThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/target/classes/sorting/divideAndConquer/quicksort3/QuickSortMedianOfThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/R02-01-Rot-RecursiveSorting-Quick3-Merge-environment/target/test-classes/sorting/test/StudentSortingTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2O0XIPNHl2rRj3AOxSnvt19o0xJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/rayane.silva/Downloads/Leda_Repository/PP1-01-Prova-StartEndPositionBinarySearch-environment"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="025080ed-874d-49cb-b87d-275893fe121c" name="Changes" comment="" />
+      <created>1680698393004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680698393004</updated>
+    </task>
+    <servers />
+  </component>
+</project>
